@@ -1,0 +1,63 @@
+<html>
+<head>
+	<title> prueba</title>
+</head>
+<body>
+
+  <form  action="ejemplo.php" method="POST">
+    
+    <label for="nombre">nombre:</label>
+    <input type="text" name="nombre" size="50" required><br/>
+
+    <label for="contrasena">contrasena:</label>
+    <input type="password" name="contrasena" size="50" required><br/>
+
+    <label for="email">e-mail:</label>
+    <input type="email" name="email" size="50" required><br/>
+
+    <label for="fecha.n">fecha.n:</label>
+    <label>año:</label>
+    <select name="fecha.n">
+      <option value="1995">1995</option>
+      <option value="1996">1996</option>
+      <option value="1997">1997</option>
+      <option value="1998">1998</option>
+      <option value="1999">1999</option>
+      <option value="2000">2000</option>
+    </select>
+
+    <label>mes:</label>
+    <select name="fecha.n">
+      <option value="enero">enero</option>
+      <option value="febrero">febrero</option>
+      <option value="marzo">marzo</option>
+    </select>
+
+    <label>dia:</label>
+    <select name="fecha.n">
+      <option value="01">01</option>
+      <option value="02">02</option>
+      <option value="03">03</option>
+    </select><br/><br/>
+
+    <label for="sexo">sexo:</label>
+    <input type="radio" name="sexo" value="macho"/>
+    <label>macho</label>
+    <input type="radio" name="sexo" value="hembra"/>
+    <label>hembra</label><br/>
+    
+    <label for="gusto">gusto</label>
+    <input type="checkbox" name="gusto" value="futol"/>
+    <label>futbol</label>
+    <input type="checkbox" name="gusto" value="baloncesto"/>
+    <label>baloncesto</label>
+    <input type="checkbox" name="gusto" value="baile"/>
+    <label>baile</label>
+
+    <p><input type="submit" value="send"/></p>
+    <p><input type="reset" value="reset"/></p>
+
+  </form>
+
+</body>
+</html> 
